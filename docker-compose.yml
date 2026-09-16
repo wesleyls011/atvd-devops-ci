@@ -1,0 +1,7 @@
+services:
+  app:
+    image: ghcr.io/wesleyls011/atvd-devops-ci:latest
+    ports:
+      - "3000:3000"
+    restart: always
+    pull_policy: always
